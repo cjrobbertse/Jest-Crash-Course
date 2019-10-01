@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/cjrobbertse/Jest-Crash-Course#readme",
   "devDependencies": {
+    "coveralls": "^3.0.6",
     "jest": "^24.9.0"
   }
 }

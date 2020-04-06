@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/cjrobbertse/Jest-Crash-Course#readme",
   "devDependencies": {
-    "coveralls": "^3.0.6",
+    "coveralls": "^3.0.11",
     "jest": "^24.9.0"
   }
 }
